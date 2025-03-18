@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<JUCERPROJECT id="DubQoq" name="EventViewer" projectType="guiapp" useAppConfig="0"
+              addUsingNamespaceToJuceHeader="0" jucerFormatVersion="1">
+  <MAINGROUP id="SK3RHV" name="EventViewer">
+    <GROUP id="{53491061-1A75-C224-533D-7FCB1DAE8938}" name="Assets">
+      <FILE id="Iqe1Mt" name="icon.png" compile="0" resource="1" file="assets/icon.png"/>
+    </GROUP>
+    <GROUP id="{8B04138A-414C-A1B2-F674-8804E083A6FD}" name="Source">
+      <FILE id="oFnhW7" name="Main.cpp" compile="1" resource="0" file="Source/Main.cpp"/>
+      <FILE id="F3vSCP" name="MainComponent.h" compile="0" resource="0" file="Source/MainComponent.h"/>
+      <FILE id="P43a7U" name="MainComponent.cpp" compile="1" resource="0"
+            file="Source/MainComponent.cpp"/>
+    </GROUP>
+  </MAINGROUP>
+  <MODULES>
+    <MODULE id="juce_core" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_data_structures" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_events" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_graphics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_basics" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_gui_extra" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+    <MODULE id="juce_osc" showAllCode="1" useLocalCopy="0" useGlobalPath="1"/>
+  </MODULES>
+  <JUCEOPTIONS JUCE_STRICT_REFCOUNTEDPOINTER="1"/>
+  <EXPORTFORMATS>
+    <XCODE_MAC targetFolder="Builds/MacOSX" smallIcon="Iqe1Mt" bigIcon="Iqe1Mt">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug" targetName="EventViewer"/>
+        <CONFIGURATION isDebug="0" name="Release" targetName="EventViewer"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="../../JUCE/modules"/>
+        <MODULEPATH id="juce_osc" path="../../JUCE/modules"/>
+      </MODULEPATHS>
+    </XCODE_MAC>
+    <VS2022 targetFolder="Builds/VisualStudio2022" smallIcon="Iqe1Mt" bigIcon="Iqe1Mt">
+      <CONFIGURATIONS>
+        <CONFIGURATION isDebug="1" name="Debug"/>
+        <CONFIGURATION isDebug="0" name="Release"/>
+      </CONFIGURATIONS>
+      <MODULEPATHS>
+        <MODULEPATH id="juce_core" path="/Users/evanclark/Documents/JUCE/modules"/>
+        <MODULEPATH id="juce_data_structures" path="/Users/evanclark/Documents/JUCE/modules"/>
+        <MODULEPATH id="juce_events" path="/Users/evanclark/Documents/JUCE/modules"/>
+        <MODULEPATH id="juce_graphics" path="/Users/evanclark/Documents/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_basics" path="/Users/evanclark/Documents/JUCE/modules"/>
+        <MODULEPATH id="juce_gui_extra" path="/Users/evanclark/Documents/JUCE/modules"/>
+        <MODULEPATH id="juce_osc" path="/Users/evanclark/Documents/JUCE/modules"/>
+      </MODULEPATHS>
+    </VS2022>
+  </EXPORTFORMATS>
+</JUCERPROJECT>
