@@ -19,6 +19,7 @@ MainComponent::MainComponent()
     addListener(this, "/tc");
     addListener(this, "/cue");
     startTimer (16);
+   // setAlwaysOnTop(true);
 }
 
 MainComponent::~MainComponent()

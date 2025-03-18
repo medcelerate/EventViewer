@@ -73,7 +73,7 @@ public:
             setResizable (true, true);
             centreWithSize (getWidth(), getHeight());
            #endif
-
+            setAlwaysOnTop(true);
             setVisible (true);
         }
 
